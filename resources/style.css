@@ -61,3 +61,52 @@ header img, ul {
 .mission-statement h2, h4 {
     margin: 10px;
 }
+
+.featured-tea {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gallery img{
+    height: 200px;
+    width: 300px;
+    margin: 0 10px;
+}
+
+.gallery figcaption {
+    margin: 10px 0;
+}
+
+.locations {
+    height: 500px;
+    width: 1200px;
+    background-image: url(./images/img-locations-background.webp);
+    margin: 0 auto;
+}
+
+.locations h2 {
+    padding-top: 50px;
+    margin-bottom: 15px;
+}
+
+.locations-list {
+    display: flex;
+    justify-content: space-around;
+}
+
+.location {
+    background: black;
+    opacity: 1;
+    width: 300px;
+    margin: 0 40px;
+}
+
+.location * {
+    margin: 40px 0;
+}
