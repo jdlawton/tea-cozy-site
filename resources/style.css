@@ -42,3 +42,22 @@ header img, ul {
 .logo {
     height: 50px;
 }
+
+.mission {
+    height: 700px;
+    width: 1200px;
+    background-image: url(./images/img-mission-background.webp);
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mission-statement {
+    background-color: black;
+    width: 100%;
+}
+
+.mission-statement h2, h4 {
+    margin: 10px;
+}
